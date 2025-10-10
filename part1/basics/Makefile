@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -Wall -std=c++20 -g
 
-TARGET = basics
+TARGET = basics.out
 
 all: $(TARGET) run
 
