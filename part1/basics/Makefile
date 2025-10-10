@@ -1,7 +1,18 @@
+CXX = g++
+CXXFLAGS = -Wall -std=c++20 -g
 
+TARGET = basics
 
-All: 
-	g++ main.cpp -o basics
+all: $(TARGET) run
 
-Clean:
-	rm -f basics
+$(TARGET): main.cpp
+	$(CXX) $(CXXFLAGS) main.cpp -o $(TARGET)
+
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+run: $(TARGET)
+	./$(TARGET)
+
+clean:
+	rm -f $(TARGET) *.o
