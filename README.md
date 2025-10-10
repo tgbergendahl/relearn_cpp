@@ -1,11 +1,23 @@
-Repository of materials I'm using to relearn C++
+# Relearning C++
 
-Part 1 --------------------------
+A repository containing materials and exercises for relearning C++ programming fundamentals.
 
-hello
+## Structure
 
-    Program to output "Hello, world!"
+### Part 1: Fundamentals
 
-basics
+#### `hello_world/`
+- **Description**: Basic "Hello, World!" program
+- **Topics Covered**: 
+  - Basic program structure
+  - Standard output with `cout`
+  - Compilation basics
 
-    Learning about iostream, variables, arrays, math, random numbers, and more.
+#### `basics/`
+- **Description**: Core C++ fundamentals and language features
+- **Topics Covered**:
+  - Input/Output streams (`iostream`)
+  - Variable declarations and types
+  - Arrays and data structures
+  - Mathematical operations
+  - Random number generation
