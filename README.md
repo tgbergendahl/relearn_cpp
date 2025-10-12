@@ -21,3 +21,14 @@ A repository containing materials and exercises for relearning C++ programming f
   - Arrays and data structures
   - Mathematical operations
   - Random number generation
+
+### Part 2: Intermediate Concepts
+
+#### `pointers_references/`
+- **Description**: Understanding memory management and data manipulation
+- **Topics Covered**:
+  - Pointer declarations and dereferencing
+  - Memory addresses and address-of operator (`&`)
+  - Reference parameters vs value parameters
+  - Function parameter passing (by value, by reference, by pointer)
+  - Pointer arithmetic and manipulation
