@@ -32,3 +32,14 @@ A repository containing materials and exercises for relearning C++ programming f
   - Reference parameters vs value parameters
   - Function parameter passing (by value, by reference, by pointer)
   - Pointer arithmetic and manipulation
+  - Memory management concepts
+
+#### `headers_imports/`
+- **Description**: Modular programming with header files and separate compilation
+- **Topics Covered**:
+  - Header file creation and structure (`#ifndef`, `#define`, `#endif`)
+  - Function declarations vs definitions
+  - Header guards and include protection
+  - Separating interface from implementation
+  - Multi-file compilation and linking
+  - Local vs system includes (`""` vs `<>`)
