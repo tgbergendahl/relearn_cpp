@@ -43,3 +43,13 @@ A repository containing materials and exercises for relearning C++ programming f
   - Separating interface from implementation
   - Multi-file compilation and linking
   - Local vs system includes (`""` vs `<>`)
+
+
+### Part 3: Object-Oriented Programming
+
+#### `classes_intro/`
+- **Description**: Basics of classes and structures
+- **Topics Covered**:
+  - Basics of classes
+  - Class instantiation and destructors
+  - Public vs private methods
