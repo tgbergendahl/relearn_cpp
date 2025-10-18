@@ -53,3 +53,13 @@ A repository containing materials and exercises for relearning C++ programming f
   - Basics of classes
   - Class instantiation and destructors
   - Public vs private methods
+
+#### `cmake/`
+- **Description**: Modern C++ build system with CMake
+- **Topics Covered**:
+  - CMakeLists.txt configuration
+  - Project setup and versioning (`cmake_minimum_required`, `project`)
+  - Executable targets (`add_executable`)
+  - Multi-file project management
+  - Out-of-source builds (build/ directory)
+  - Cross-platform build configuration
